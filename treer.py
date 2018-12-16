@@ -13,5 +13,4 @@ while True:
     print(datetime.datetime.now())
     subprocess.call(cmd1)
     subprocess.call(cmd2)
-    #print(dt_now)
-    sleep(15)
+    sleep(10)
