@@ -11,6 +11,6 @@ file.write('new file\n')
 
 while True:
     print(datetime.datetime.now())
-    subprocess.call(cmd1)
-    subprocess.call(cmd2)
+    result1 = subprocess.call(cmd1)
+    result2 = subprocess.call(cmd2)
     sleep(10)
